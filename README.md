@@ -1,4 +1,87 @@
-MarxC
-=====
+#MarxC
 
-Karl Marx based programming language
+Programming language based on the one-liners of Karl Marx.
+
+##Motivation
+
+Although the one-liners of Karl Marx are fairly well known the true semantics of the uttering is yet to be understood. This project tries to discover new meanings from Marx works with the means of computer science.
+
+##HelloWorld.marxc
+
+	A SPECTRE IS HAUNTING EUROPE — THE SPECTRE OF COMMUNISM
+	EDUCATION IS FREE "hello world"
+	YOU HAVE NOTHNIG TO LOSE BUT YOUR OWN CHAINS
+
+##Quick Start
+
+	wget http://iogr.github.io/MarxC.jar
+	echo -e "A SPECTRE IS HAUNTING EUROPE — THE SPECTRE OF COMMUNISM\nEDUCATION IS FREE \"hello world\"\nYOU HAVE NOTHNIG TO LOSE BUT YOUR OWN CHAINS" > hello.marxc
+	java -jar MarxC.jar hello.marxc
+	java hello
+
+##Brief overview of the keywords
+
+
+False `QUESTION EVERYTHING`
+
+True `CAPITAL IS DEAD LABOUR`
+
+If `WHAT IS COMMUNISM?`
+
+Else `I HAVE TRIED TO DISPEL THE MISUNDERSTANDING`
+
+EndIf `ABOLITION OF PRIVATE PROPERTY`
+
+While `HISTORY REPEATS ITSELF, FIRST AS TRAGEDY`
+
+EndWhile `SECOND AS FARCE`
+
+PlusOperator `METHODS OF PRIMITIVE ACCUMULATION ARE ANYTHING BUT IDYLLIC`
+
+MinusOperator `THE EXPROPRIATORS ARE EXPROPRIATED`
+
+MultiplicationOperator `THEY DON'T KNOW IT, BUT THEY ARE DOING IT`
+
+DivisionOperator `THE WAGE DECREASES`
+
+EqualTo `NATURE IS THE PROOF OF DIALECTICS`
+
+GreaterThan `PROLETARIAT`
+
+LowerThan `BOURGEOISIE`
+
+Or `NECESSITY IS BLIND UNTIL IT BECOMES CONSCIOUS`
+
+And `WORKERS OF THE WORLD, UNITE`
+
+DeclareMethod `RELIGION IS THE OPIATE OF THE MASSES`
+
+NonVoidMethod `FORCE IS THE MIDWIFE`
+
+MethodArguments `FROM EACH ACCORDING TO HIS ABILITIES, TO EACH ACCORDING TO HIS NEEDS`
+
+Return `REVOLUTIONS ARE THE LOCOMOTIVES OF HISTORY`
+
+EndMethodDeclaration `DESTROY CAPITALISM`
+
+CallMethod `STEP OF REAL MOVEMENT`
+
+AssignVariableFromMethodCall `TREMBLE AT A COMMUNIST REVOLUTION`
+
+DeclareInt `PRIVATE PROPERTY`
+
+SetInitialValue `NOTHING CAN HAVE VALUE WITHOUT BEING AN OBJECT OF UTILITY`
+
+BeginMain `A SPECTRE IS HAUNTING EUROPE — THE SPECTRE OF COMMUNISM`
+
+EndMain `YOU HAVE NOTHNIG TO LOSE BUT YOUR OWN CHAINS`
+
+Print `EDUCATION IS FREE`
+
+AssignVariable `THE LAST CAPITALIST WE HANG SHALL BE THE ONE WHO SOLD US THE ROPE`
+
+SetValue `DICTATORSHIP OF THE PROLETARIAT`
+
+EndAssignVariable`THE POINT, HOWEVER, IS TO CHANGE IT`
+
+ParseError `THE RICH WILL DO ANYTHING FOR THE POOR BUT GET OFF THEIR BACKS`
