@@ -2,15 +2,15 @@ package org.marxc
 
 import java.io.FileOutputStream
 
-object ArnoldC {
+object MarxC {
   def main(args: Array[String]) {
     if (args.length != 1) {
-      println("Usage: ArnoldC [FileToSourceCode]")
+      println("Usage: MarxC [FileToSourceCode]")
       return
     }
     val filename = args(0)
     val sourceCode = scala.io.Source.fromFile(filename).mkString
-    val a = new ArnoldGenerator()
+    val a = new MarxGenerator()
     val classFilename = if (filename.contains('.')) {
       filename.replaceAll("\\.[^.]*$", "")
     }
